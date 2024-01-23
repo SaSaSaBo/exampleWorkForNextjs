@@ -3,7 +3,7 @@ import { MovieContainer } from '@/containers/movie';
 import Movies from '@/mocks/movies.json'
 import { notFound } from "next/navigation";
 
-async function delay(as){
+async function delay(ms){
     return new Promise((resolve) => {
         setTimeout(resolve, ms);
     })
