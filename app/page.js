@@ -1,6 +1,9 @@
-
-export default function Home() {
+import React from 'react';
+import HomeContainer from '@/containers/home';
+function HomePage() {
   return (
-   <div>naber</div>
+   <HomeContainer />
   );
 }
+
+export default HomePage;
