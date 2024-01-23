@@ -1,10 +1,8 @@
-import React from 'react'
-import FeaturedMovie from '@/components/featured-movie'
+import { FeaturedMovie } from "@/components/featured-movie";
+import React from "react";
 
-function MovieContainer({movie}) {
-  return (
-    <FeaturedMovie movie={movie} isCompact={false}/>
-  )
+function MovieContainer({ movie }) {
+ return <FeaturedMovie movie={movie} />
 }
 
-export default MovieContainer;
+export { MovieContainer };

@@ -76,6 +76,8 @@
   
   .moviePoster img {
     height: auto !important;
+    height: 150px;
+    width: 150px;
     z-index: -2;
     max-height: 100vh;
     object-fit: cover;

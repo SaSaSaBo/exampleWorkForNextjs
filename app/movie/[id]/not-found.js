@@ -15,7 +15,7 @@ function Movie404() {
       <h1>We couldn&apos;t find the movie you looking for!</h1>
       <Link
         href="/"
-        style={{ fontSize: 20, marginTop: 8, fontWeight: "bold", border: "2px solid red", padding: 8, borderRadius: 8, backgroundColor: "red", color: "white" }}
+        style={{ border: "1px solid red", padding: 8, borderRadius: 8, backgroundColor: "red", fontSize: 20, marginTop: 8 }}
       >
         Go home
       </Link>
